@@ -1,0 +1,18 @@
+When cloning the backend folder make sure:
+.net 10 is downloaded
+go to the directory that contains the .sln file
+type the following commands:
+
+Dependencies: 
+dotnet restore
+
+Compile: 
+dotnet build
+
+Start: 
+dotnet run
+
+since bin and obj folders got removed from the GitHub repos
+
+-Wish That Helps
+-Waleed
