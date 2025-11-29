@@ -1,0 +1,38 @@
+@rootURL = http://localhost:5209
+
+
+GET {{rootURL}}/api/Users/
+Accept: application/json
+
+###
+
+GET {{rootURL}}/api/Users/102
+Accept: application/json
+
+###
+
+POST {{rootURL}}/api/Users
+Content-Type: application/json
+
+{ 
+  "Email" : "Ali@gmail.com",
+  "Name" : "Ali",
+  "Password" : "passwd"
+}
+
+###
+
+PUT {{rootURL}}/api/Users/102
+Content-Type: application/json
+
+{
+  "UserID" : 102,
+  "Email" : "Ashraf@gmail.com",
+  "Name" : "Ashraf",
+  "Password" : "passwd"
+}
+
+###
+
+DELETE {{rootURL}}/api/Users/102
+

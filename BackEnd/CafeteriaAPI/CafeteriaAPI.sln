@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserApi", "UserApi\UserApi.csproj", "{C73CD78E-A5C1-4ACE-9761-A613B007439F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeteriaApi", "CafeteriaApi\CafeteriaApi.csproj", "{84F1F986-CFC0-4B90-A0B3-A13F8A46B203}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C73CD78E-A5C1-4ACE-9761-A613B007439F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C73CD78E-A5C1-4ACE-9761-A613B007439F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C73CD78E-A5C1-4ACE-9761-A613B007439F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C73CD78E-A5C1-4ACE-9761-A613B007439F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F1F986-CFC0-4B90-A0B3-A13F8A46B203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F1F986-CFC0-4B90-A0B3-A13F8A46B203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F1F986-CFC0-4B90-A0B3-A13F8A46B203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F1F986-CFC0-4B90-A0B3-A13F8A46B203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
