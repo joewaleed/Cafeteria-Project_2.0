@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CafeteriaApi.Migrations
 {
     [DbContext(typeof(CafeteriaAPIContext))]
-    [Migration("20251129194500_Users API Migration")]
+    [Migration("20251130221029_Users API Migration")]
     partial class UsersAPIMigration
     {
         /// <inheritdoc />
@@ -44,10 +44,13 @@ namespace CafeteriaApi.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("UserID");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });
